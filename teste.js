@@ -61,7 +61,6 @@ async function gerarSeries() {
     const urls = ['/series/top5', '/series/lancamentos', '/series'];
 
     try {
-        // Faz todas as solicitações em paralelo
         const data = await Promise.all(urls.map(url => getDados(url)));
         criarListaFilmes(elementos.top5, data[0]);
         criarListaFilmes(elementos.lancamentos, data[1]);
