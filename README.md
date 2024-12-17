@@ -18,7 +18,7 @@ O **ScreenMatch** é uma aplicação web que apresenta informações de séries 
   
 ## Demonstração
   
-  ![Demonstração do FIPECar](src/main/java/br/com/robsonlmds/assets/video-fipecar.gif)
+![Demonstração do Video_screenmatch](assets/Video_screenmatch.gif)
 </div>
 
 
